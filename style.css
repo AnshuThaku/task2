@@ -45,13 +45,13 @@
     padding: 2px 15px;
     border-radius: 20px;
     transition: 0.3s;
-    transition-property:background;
+    /* transition-property:background; */
  }
  header .navigation a:not(:last-child){
     margin-right: 30px;
  }
  header .navigation a:hover{
-    background: goldenrod;
+    background: #000;
  }
  .content{
     max-width: 650px;
@@ -88,7 +88,7 @@
     padding: 10px 20px;
     border-radius: 5px;
     transition: 0.3s;
-    transition-property:background ;
+    /* transition-property:background; */
  }
  .content .info-btn:hover{
     background: #5db9ee;
@@ -125,6 +125,8 @@
       display: none;
    }
    label{
+      color: #fff;
+
       display: block;
       font-size: 25px;
       cursor: pointer;
@@ -132,7 +134,7 @@
       transition-property: color;
    }
    label:hover{
-      color: #fff;
+      color: #000;
    }
    label .close-btn{
       display: none;
